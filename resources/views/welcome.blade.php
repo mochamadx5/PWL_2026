@@ -11,7 +11,7 @@
     </head>
     <body class="antialiased">
         <div style="margin-top: 10%">
-            <h1>Halo! Saya Mochamad Reza</h1>
+            <h1>Halo! Saya Mochamad Reza Firdaus</h1>
             <p>Ini adalah awal portfolio web development saya.</p>
         </div>
     </body>
