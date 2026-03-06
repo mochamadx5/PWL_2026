@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
     Route::get('/hello', function () {
-        return ('Hello world');
+        return ('Hello World');
     });
 /*
 |--------------------------------------------------------------------------
