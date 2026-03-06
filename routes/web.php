@@ -8,6 +8,15 @@ use Illuminate\Support\Facades\Route;
     Route::get('/world', function () {
         return 'World';
     });
+    // Route untuk halaman utama (root)
+    Route::get('/', function () {
+    return 'Selamat Datang';
+    });
+
+    // Route untuk halaman about
+    Route::get('/about', function () {
+    return 'NIM : 244107020104 <br> Nama : Mochamad Reza Firsaus';
+    });
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,7 +27,3 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
