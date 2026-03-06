@@ -1,4 +1,4 @@
-Laporan Jobsheet 1: Instalasi & Konfigurasi Laravel
+# Jobsheet 1: Instalasi & Konfigurasi Laravel
 
 Nama: Mochamad Reza Firdaus
 
