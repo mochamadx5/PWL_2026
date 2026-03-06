@@ -49,4 +49,6 @@ Menampilkan route world ![Teks Alternatif](img/jobsheet2/world.png)
 
 Menampilkan selamat datang ![Teks Alternatif](img/jobsheet2/selamat_datang.png)
 
+Menampilkan route about (data diri) ![Teks Alternatif](img/jobsheet2/about.png)
+
 -	Praktikum 2 - 
