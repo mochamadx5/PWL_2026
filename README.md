@@ -42,4 +42,4 @@ https://github.com/mochamadx5/PWL_2026
 
 # Jobsheet 2:
 Praktikum 1 
--![Teks Alternatif](path/ke/gambar.png)
+-![Teks Alternatif](img/jobsheet2/hello.png)
