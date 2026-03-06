@@ -41,9 +41,11 @@ https://github.com/mochamadx5/PWL_2026
 
 
 # Jobsheet 2 :
--	Praktikum 1 - Menampilkan Route Hello
-![Teks Alternatif](img/jobsheet2/hello.png)
-![Teks Alternatif](img/jobsheet2/world.png)
-![Teks Alternatif](img/jobsheet2/selamat_datang.png)
+-	Praktikum 1 
+Menampilkan route Hello ![Teks Alternatif](img/jobsheet2/hello.png)
+
+Menampilkan route world ![Teks Alternatif](img/jobsheet2/world.png)
+
+Menampilkan selamat datang ![Teks Alternatif](img/jobsheet2/selamat_datang.png)
 
 -	Praktikum 2 - 
