@@ -28,6 +28,10 @@ use Illuminate\Support\Facades\Route;
         return 'Pos ke-'.$postId." Komentar ke-: ".$commentId;
     });
 
+    Route::get('/articles/{id}', function ($id) {
+    return 'Halaman Artikel dengan ID ' . $id;
+    });
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
