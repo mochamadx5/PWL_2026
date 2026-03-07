@@ -59,4 +59,7 @@ Laravel memungkinkan sebuah route untuk menerima lebih dari satu parameter dinam
 
 Menampilkan route paramaters sendiri ![Teks Alternatif](img/jobsheet2/route_parameters.png)
 
+memanggil route/user sekaligus mengirimkan parameter berupa nama user dimana parameter bersifat opsional ![Teks Alternatif](img/jobsheet2/usersekaligusparameter.png.png)
+
+
 -	Praktikum 2 - 
