@@ -51,4 +51,6 @@ Menampilkan selamat datang ![Teks Alternatif](img/jobsheet2/selamat_datang.png)
 
 Menampilkan route about (data diri) ![Teks Alternatif](img/jobsheet2/about.png)
 
+Menampilkan route paramaters ![Teks Alternatif](img/jobsheet2/parameters.png)
+
 -	Praktikum 2 - 
