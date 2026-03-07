@@ -51,6 +51,10 @@ Menampilkan selamat datang ![Teks Alternatif](img/jobsheet2/selamat_datang.png)
 
 Menampilkan route about (data diri) ![Teks Alternatif](img/jobsheet2/about.png)
 
-Menampilkan route paramaters ![Teks Alternatif](img/jobsheet2/parameters.png)
+Menampilkan route paramaters ![Teks Alternatif](img/
+jobsheet2/parameters.png)
+
+Menampilkan route paramaters user ![Teks Alternatif](img/jobsheet2/parameters_user.png)
+Muncul "Not Found" itu karena rute /user/{name} wajib untuk diiisi sesuatu di posisi parameter {name} tersebut.
 
 -	Praktikum 2 - 
