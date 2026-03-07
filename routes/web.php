@@ -17,6 +17,11 @@ use Illuminate\Support\Facades\Route;
     Route::get('/about', function () {
     return 'NIM : 244107020104 <br> Nama : Mochamad Reza Firsaus';
     });
+
+    // route paramaters
+    Route::get('/user/{name}', function ($name) {
+        return 'Nama saya, ' . $name;
+    });
 /*
 |--------------------------------------------------------------------------
 | Web Routes
