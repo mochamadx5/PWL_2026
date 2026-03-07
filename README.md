@@ -64,5 +64,6 @@ memanggil route/user sekaligus mengirimkan parameter berupa nama user dimana par
 memanggil route/user sekaligus mengirimkan parameter berupa nama user dimana parameter bersifat opsional ![Teks Alternatif](img/jobsheet2/route_john.png)
 Ketika URL diakses tanpa memasukkan parameter nama, halaman tetap dapat berjalan tanpa error karena penggunaan parameter opsional {name?} yang didukung dengan pemberian nilai default pada variabel fungsi. Dalam kode ini, variabel $name telah diatur memiliki nilai bawaan berupa 'John', sehingga saat URL tidak mengirimkan data apa pun, sistem secara otomatis akan menggunakan nilai tersebut sebagai output.
 
+![Teks Alternatif](img/jobsheet2/git-progress.png)
 
 -	Praktikum 2 - 
