@@ -83,3 +83,6 @@ Resource controller
 -	Praktikum 3 - View
 ![Teks Alternatif](img/jobsheet2/view.png)
 Saat URL /greeting diakses, halaman web menampilkan teks "Hello, Mochamad Reza Firdaus" dalam ukuran h1. Hal ini terjadi karena rute tidak langsung mencetak teks, melainkan memanggil file View hello.blade.php.
+
+![Teks Alternatif](img/jobsheet2/view_direktori.png)
+Hasil yang ditampilkan pada halaman web tetap sama persis dengan praktikum sebelumnya. Perbedaannya terletak pada struktur folder dan cara pemanggilan file View di dalam rute. Karena file hello.blade.php telah dipindahkan ke dalam sub-direktori blog, pemanggilannya pada fungsi view() harus menggunakan sintaks titik, yaitu view 'blog.hello'
