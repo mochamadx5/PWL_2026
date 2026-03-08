@@ -67,3 +67,6 @@ Ketika URL diakses tanpa memasukkan parameter nama, halaman tetap dapat berjalan
 ![Teks Alternatif](img/jobsheet2/git-progress.png)
 
 -	Praktikum 2 - 
+![Teks Alternatif](img/jobsheet2/controller-1.png)
+![Teks Alternatif](img/jobsheet2/controller_hello.png)
+Controller mulai mengambill logic aplikasi

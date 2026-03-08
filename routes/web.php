@@ -1,36 +1,35 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\WelcomeController;
 
-    Route::get('/hello', function () {
-        return 'Hello World';
-    });
-    Route::get('/world', function () {
-        return 'World';
-    });
-    // Route untuk halaman utama (root)
-    Route::get('/', function () {
+Route::get('/hello', [WelcomeController::class, 'hello']);
+
+Route::get('/world', function () {
+    return 'World';
+});
+
+// Route untuk halaman utama (root)
+Route::get('/', function () {
     return 'Selamat Datang';
-    });
+});
 
-    // Route untuk halaman about
-    Route::get('/about', function () {
+// Route untuk halaman about
+Route::get('/about', function () {
     return 'NIM : 244107020104 <br> Nama : Mochamad Reza Firsaus';
-    });
+});
 
-    Route::get('/posts/{post}/comments/{comment}',
-        function ($postId, $commentId) {
-        return 'Pos ke-'.$postId." Komentar ke-: ".$commentId;
-    });
+Route::get('/posts/{post}/comments/{comment}', function ($postId, $commentId) {
+    return 'Pos ke-'.$postId." Komentar ke-: ".$commentId;
+});
 
-    Route::get('/articles/{id}', function ($id) {
+Route::get('/articles/{id}', function ($id) {
     return 'Halaman Artikel dengan ID ' . $id;
-    });
+});
 
-    Route::get('/user/{name?}', function ($name='John') { 
+Route::get('/user/{name?}', function ($name='John') { 
     return 'Nama saya '.$name;
-    });
-
+});
 
 /*
 |--------------------------------------------------------------------------
