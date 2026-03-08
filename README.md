@@ -79,3 +79,7 @@ Resource controller
 ![Teks Alternatif](img/jobsheet2/resource_controller.png)
 ![Teks Alternatif](img/jobsheet2/resource_controller2.png)
 ![Teks Alternatif](img/jobsheet2/resource_controller3.png)
+
+-	Praktikum 3 - View
+![Teks Alternatif](img/jobsheet2/view.png)
+Saat URL /greeting diakses, halaman web menampilkan teks "Hello, Mochamad Reza Firdaus" dalam ukuran h1. Hal ini terjadi karena rute tidak langsung mencetak teks, melainkan memanggil file View hello.blade.php.

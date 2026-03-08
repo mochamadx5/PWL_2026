@@ -27,3 +27,7 @@ Route::get('/world', function () {
     Route::resource('photos', PhotoController::class)->only([
         'index', 'show'
     ]);
+    
+    Route::get('/greeting', function () {
+    return view('hello', ['name' => 'Mochamad Reza Firdaus']);
+    });
