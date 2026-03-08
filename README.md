@@ -70,3 +70,7 @@ Ketika URL diakses tanpa memasukkan parameter nama, halaman tetap dapat berjalan
 Controller mulai mengambill logic aplikasi
 ![Teks Alternatif](img/jobsheet2/controller-1.png)
 ![Teks Alternatif](img/jobsheet2/controller_hello.png)
+
+Page controller routes logic
+![Teks Alternatif](img/jobsheet2/page-controller_routes.png)
+![Teks Alternatif](img/jobsheet2/page-controller_logic.png)
