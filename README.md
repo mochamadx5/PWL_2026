@@ -88,3 +88,9 @@ View direktori
 ![Teks Alternatif](img/jobsheet2/view_direktori.png)
 
 Hasil yang ditampilkan pada halaman web tetap sama persis dengan praktikum sebelumnya. Perbedaannya terletak pada struktur folder dan cara pemanggilan file View di dalam rute. Karena file hello.blade.php telah dipindahkan ke dalam sub-direktori blog, pemanggilannya pada fungsi view() harus menggunakan sintaks titik, yaitu view 'blog.hello'
+
+Menampilkan view dari controller
+![Teks Alternatif](img/jobsheet2/view-controller.png)
+![Teks Alternatif](img/jobsheet2/view-controller2.png)
+
+hasil yang ditampilkan pada halaman web tetap sama, yaitu teks "Hello, Mochamad Reza Firdaus". Namun, secara arsitektur, kode telah mengimplementasikan pola MVC dengan benar. Alur pemrosesannya berubah menjadi: Route menerima permintaan dari URL /greeting dan meneruskannya ke WelcomeController pada metode greeting(). Kemudian, Controller tersebut bertugas menyiapkan data array berisi nama dan memanggil View blog.hello untuk merender tampilan HTML-nya. Pemisahan tugas ini membuat kode menjadi lebih terstruktur dan mudah dikelola untuk aplikasi skala besar.

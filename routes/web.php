@@ -28,7 +28,4 @@ Route::get('/world', function () {
         'index', 'show'
     ]);
     
-    Route::get('/greeting', function () {
-    // Memanggil view hello di dalam folder blog
-    return view('blog.hello', ['name' => 'Mochamad Reza Firdaus']); 
-    });
+    Route::get('/greeting', [WelcomeController::class, 'greeting']);
