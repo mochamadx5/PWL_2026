@@ -99,3 +99,5 @@ With Method
 ![Teks Alternatif](img/jobsheet2/with_method.png)
 ![Teks Alternatif](img/jobsheet2/with_method_controllers.png)
 ![Teks Alternatif](img/jobsheet2/with_method_blade.png)
+
+halaman web kini menampilkan dua baris teks h1, yaitu nama dan pekerjaan. Hal ini membuktikan bahwa pengiriman data dari Controller ke View tidak hanya terbatas menggunakan format array asosiatif tunggal , tetapi juga bisa menggunakan metode berantai/chaining with(). Metode with() mengembalikan instance view sehingga memungkinkan kita untuk menyisipkan beberapa potong data individual secara berurutan sebelum merendernya ke layar. Pada sisi View, kedua data tersebut berhasil ditangkap secara mandiri menggunakan sintaks {{ $name }} dan {{ $occupation }}
